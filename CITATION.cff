@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying SFIHILO paper."
+title: "SFIHILO: Simultaneous Forward and Inverse Human-in-the-Loop Optimization"
+type: software
+repository-code: "https://github.com/kyeongwon-park/SFIHILO"
+authors:
+  - family-names: Park
+    given-names: Kyeongwon
+    affiliation: Stanford University
+  - family-names: Collins
+    given-names: "Steven H."
+    affiliation: Stanford University
+license: MIT
+keywords:
+  - human-robot interaction
+  - preference learning
+  - active learning
+  - human-in-the-loop optimization
+preferred-citation:
+  type: conference-paper
+  title: "Simultaneous Forward and Inverse Human-in-the-Loop Optimization"
+  authors:
+    - family-names: Park
+      given-names: Kyeongwon
+      affiliation: Stanford University
+    - family-names: Collins
+      given-names: "Steven H."
+      affiliation: Stanford University
+  year: 2026
+  url: "https://arxiv.org/abs/2609.22630"
+  conference:
+    name: "10th Conference on Robot Learning (CoRL 2026)"

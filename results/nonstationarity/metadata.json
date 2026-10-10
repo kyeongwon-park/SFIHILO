@@ -1,0 +1,45 @@
+{
+  "config": {
+    "description": "Precomputed nonstationarity full-run results for Figure 2 panel G.",
+    "drift": {
+      "enabled": true
+    }
+  },
+  "methods": [
+    {
+      "key": "unweighted_recency",
+      "label": "Boundary Lookahead (Unweighted)",
+      "query_policy": "active",
+      "active_mode": "boundary_lookahead",
+      "forward_weight_mode": "none",
+      "learner_reward_model": "gp_rff"
+    },
+    {
+      "key": "estimated_recency",
+      "label": "Boundary Lookahead (Estimated Recency)",
+      "query_policy": "active",
+      "active_mode": "boundary_lookahead",
+      "forward_weight_mode": "estimated_recency",
+      "learner_reward_model": "gp_rff"
+    },
+    {
+      "key": "oracle_recency",
+      "label": "Boundary Lookahead (Oracle Recency)",
+      "query_policy": "active",
+      "active_mode": "boundary_lookahead",
+      "forward_weight_mode": "oracle_recency",
+      "learner_reward_model": "gp_rff"
+    }
+  ],
+  "conditions": [],
+  "result_slots": {
+    "err_test": 0,
+    "err_balanced": 1,
+    "forward_rmse": 2,
+    "policy_reward_mc": 3,
+    "policy_regret_mc": 4,
+    "current_err_test": 7,
+    "current_err_balanced": 8
+  },
+  "precomputed_result_note": "Included to reproduce the paper Figure 2 nonstationarity panel without rerunning the full experiments."
+}

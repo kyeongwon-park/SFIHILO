@@ -1,0 +1,13 @@
+experiment,condition,condition_label,condition_type,n_misspecified,d,total_outcome_dim,observed_outcome_dim,reward_outcome_dim,learner_reward_model,method,metric,tau,qc,mean,ci95,n
+feature_misspecification,missing_0,Missing 0,missing_features,0,10,15,10,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.1282,0.008761760845603926,30
+feature_misspecification,missing_1,Missing 1,missing_features,1,10,15,9,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.2126333333333333,0.021828594831234668,30
+feature_misspecification,missing_2,Missing 2,missing_features,2,10,15,8,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.27723333333333333,0.024269256083964633,30
+feature_misspecification,missing_3,Missing 3,missing_features,3,10,15,7,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.34396666666666664,0.021738099923030163,30
+feature_misspecification,missing_4,Missing 4,missing_features,4,10,15,6,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.36956666666666665,0.015891577073433312,30
+feature_misspecification,missing_5,Missing 5,missing_features,5,10,15,5,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.3888666666666667,0.0172269188198895,30
+feature_misspecification,additional_0,Additional 0,additional_features,0,10,15,10,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.1282,0.008761760845603926,30
+feature_misspecification,additional_1,Additional 1,additional_features,1,10,15,11,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.1414,0.010142871540504174,30
+feature_misspecification,additional_2,Additional 2,additional_features,2,10,15,12,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.15866666666666665,0.010982130986267493,30
+feature_misspecification,additional_3,Additional 3,additional_features,3,10,15,13,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.1698333333333333,0.011645402027769668,30
+feature_misspecification,additional_4,Additional 4,additional_features,4,10,15,14,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.17626666666666668,0.0102021100590161,30
+feature_misspecification,additional_5,Additional 5,additional_features,5,10,15,15,10,gp_rff,Boundary Lookahead,preference_error_balanced,,500,0.1868,0.008750778989230615,30

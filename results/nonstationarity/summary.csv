@@ -1,0 +1,442 @@
+experiment,condition,condition_label,condition_type,n_misspecified,d,total_outcome_dim,observed_outcome_dim,reward_outcome_dim,learner_reward_model,method,metric,tau,qc,mean,ci95,n
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,0,0.5261666666666667,0.02995527935792123,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,10,0.3424333333333333,0.028536951448004496,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,13,0.33060000000000006,0.023885032689206095,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,16,0.31706666666666666,0.02217614337949431,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,21,0.3015333333333334,0.019168839414460067,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,26,0.2833666666666667,0.022338922969065002,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,34,0.2643666666666667,0.022923794506192374,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,43,0.23763333333333334,0.01975428925228305,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,55,0.22246666666666667,0.02032299907083851,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,70,0.20463333333333333,0.015050880107417598,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,89,0.19476666666666664,0.014463514421897042,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,113,0.18620000000000003,0.013086089942726031,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,144,0.18006666666666668,0.015184598886814742,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,183,0.1609,0.011804208930439207,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,234,0.1549333333333333,0.012102099202571208,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,298,0.14173333333333332,0.011126791355954362,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,379,0.1322,0.009811223425321817,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,483,0.127,0.011088295724264088,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,616,0.11803333333333335,0.010192467917763709,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,785,0.11216666666666665,0.011377676655107728,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_balanced,,1000,0.10703333333333333,0.009902965025152845,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,0,0.16458666666666666,0.005658234154307351,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,10,0.12223666666666669,0.0017323425857664091,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,13,0.11502666666666667,0.001333666724902895,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,16,0.11032666666666668,0.001182601396646903,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,21,0.10391666666666666,0.0013059492800618763,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,26,0.09946333333333333,0.0012647424866262026,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,34,0.09322000000000001,0.0013075430612533505,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,43,0.08979666666666669,0.0012124148401293688,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,55,0.08872000000000001,0.0010491821160802624,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,70,0.09058333333333334,0.001324882807333704,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,89,0.09471,0.001366832854308335,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,113,0.09834,0.0015298058751567175,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,144,0.10071333333333335,0.0017602400558916179,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,183,0.10081999999999999,0.001650298390159024,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,234,0.09836,0.0017913995943134354,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,298,0.09429333333333334,0.001855119230154176,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,379,0.08843000000000001,0.0018786384332267819,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,483,0.08258666666666667,0.0018000246886089404,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,616,0.07682666666666667,0.0017882655922251745,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,785,0.07105666666666667,0.0018216097912993885,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),forward_rmse,,1000,0.06606,0.00171754506222746,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,0,0.5092,0.009950391144146854,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,10,0.4478,0.012109433544044118,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,13,0.4436666666666667,0.009790095791680676,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,16,0.4382666666666667,0.011129815719407042,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,21,0.43539999999999995,0.010499242383619694,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,26,0.42750000000000005,0.014239409394475318,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,34,0.41616666666666663,0.014677147345984014,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,43,0.39823333333333344,0.015769482740952214,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,55,0.38370000000000004,0.015197327634049828,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,70,0.3708000000000001,0.014157681869705369,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,89,0.3625333333333333,0.013397024287722005,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,113,0.3600333333333333,0.012083631136826471,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,144,0.3504333333333334,0.01644878792976344,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,183,0.3330666666666666,0.013522477673437346,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,234,0.32986666666666664,0.015113760285009315,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,298,0.31653333333333333,0.014038773942880394,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,379,0.30210000000000004,0.013200935432181777,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,483,0.2887666666666667,0.016641166512164584,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,616,0.28150000000000003,0.01479872361242178,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,785,0.27306666666666674,0.015894072919243055,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.02,1000,0.26336666666666664,0.016459833216987223,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,0,0.5102666666666668,0.017706760302631526,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,10,0.4045333333333333,0.021719789673192907,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,13,0.39673333333333344,0.018859383119042023,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,16,0.38993333333333335,0.01939058948213758,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,21,0.3791666666666667,0.018128628473111138,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,26,0.3585666666666667,0.02397165176094917,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,34,0.3409666666666667,0.023383339889376447,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,43,0.3152333333333333,0.02181475800661109,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,55,0.29496666666666665,0.022609124261476352,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,70,0.27586666666666665,0.017762824979542974,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,89,0.2599333333333333,0.01758824596501281,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,113,0.24753333333333333,0.01689721872057574,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,144,0.23789999999999997,0.02131143184529325,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,183,0.21636666666666665,0.017623079134572943,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,234,0.2034,0.019002287752934208,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,298,0.18666666666666665,0.017747281264687206,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,379,0.16906666666666667,0.016978176772051226,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,483,0.1603,0.018418856377606457,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,616,0.14880000000000002,0.015154953840176896,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,785,0.14150000000000001,0.017272913301489654,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.04,1000,0.13193333333333335,0.015614521732366422,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,0,0.5279666666666666,0.03365251468982458,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,10,0.322,0.034388615740837854,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,13,0.3075,0.031958304636473825,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,16,0.2942333333333334,0.02842638055552498,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,21,0.2779333333333333,0.026364244719622083,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,26,0.25270000000000004,0.031321193340915834,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,34,0.2232333333333333,0.030393561129485203,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,43,0.18586666666666665,0.025401411325559578,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,55,0.1625,0.025797892441270363,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,70,0.14213333333333333,0.019376153093195205,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,89,0.12633333333333333,0.018965496411808766,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,113,0.11093333333333333,0.015757968826754877,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,144,0.1027,0.01568003770720931,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,183,0.08443333333333333,0.013860216445329209,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,234,0.07560000000000001,0.013079180746657995,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,298,0.06356666666666666,0.01150525734877974,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,379,0.055266666666666665,0.00998922886157387,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,483,0.04993333333333332,0.009812464810632205,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,616,0.04166666666666666,0.007348271953322171,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,785,0.03956666666666666,0.008926097278731396,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.08,1000,0.03523333333333334,0.007849608022855423,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,0,0.5440333333333334,0.06253375448017176,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,10,0.19616666666666668,0.04407818899975576,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,13,0.17180000000000004,0.037722930022891725,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,16,0.1524666666666667,0.031716371595364876,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,21,0.13103333333333333,0.027303938253425652,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,26,0.11333333333333334,0.026325809920297327,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,34,0.09003333333333334,0.02522719588631026,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,43,0.06076666666666666,0.017786344855287007,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,55,0.048899999999999985,0.01626674856627565,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,70,0.03613333333333334,0.010005964740694673,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,89,0.028566666666666674,0.008484811179473159,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,113,0.023466666666666667,0.006710380757053561,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,144,0.021333333333333336,0.006534392788514781,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,183,0.015566666666666668,0.0053850571647552315,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,234,0.013466666666666667,0.0046923446495205695,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,298,0.009733333333333335,0.003221029892986479,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,379,0.007533333333333334,0.00293976675856398,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,483,0.0068,0.002978222203727502,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,616,0.0054666666666666665,0.0020304442766554483,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,785,0.005,0.0019636751141218663,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),preference_error_reward_gap_bin,0.16,1000,0.0047,0.001853202072485549,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,0,0.5227333333333334,0.030334062412194236,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,10,0.3237666666666667,0.030095969625084578,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,13,0.3027666666666667,0.027295872048632135,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,16,0.28496666666666665,0.022810254475515778,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,21,0.2595666666666666,0.021616821090813716,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,26,0.23050000000000004,0.025441699386976036,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,34,0.1995666666666667,0.025955071906768233,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,43,0.16326666666666664,0.019696386996620602,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,55,0.14536666666666667,0.016502716836340667,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,70,0.13663333333333333,0.012884697977037823,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,89,0.13243333333333335,0.01342353767435966,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,113,0.1412,0.013269612011986152,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,144,0.14636666666666667,0.014284493724154282,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,183,0.1469333333333333,0.013304543150134464,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,234,0.13836666666666667,0.01197812651660799,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,298,0.1282,0.011390902837072635,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,379,0.116,0.009976738848935905,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,483,0.1063,0.009414467870263019,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,616,0.09343333333333334,0.008445621118128572,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,785,0.0893,0.008306980748512091,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Unweighted),current_preference_error_balanced,,1000,0.07913333333333333,0.006421876830011032,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,0,0.5261666666666667,0.02995527935792123,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,10,0.3435333333333333,0.019730970855960928,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,13,0.32709999999999995,0.019034331327762895,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,16,0.31099999999999994,0.018108969718134384,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,21,0.28926666666666667,0.019282177785869166,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,26,0.2669333333333333,0.020100627980644402,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,34,0.2425333333333333,0.014819496783664848,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,43,0.22820000000000001,0.010325528931764234,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,55,0.22053333333333336,0.011973409152451675,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,70,0.2105666666666667,0.01553139331405152,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,89,0.19590000000000002,0.014753689870410017,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,113,0.1875333333333333,0.015049682121921518,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,144,0.17700000000000005,0.013972266536813993,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,183,0.16509999999999994,0.013362029062694392,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,234,0.1547666666666667,0.013189396851476388,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,298,0.1421,0.012802290328517617,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,379,0.1352666666666667,0.012007973466906784,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,483,0.12616666666666668,0.010757763708043615,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,616,0.11586666666666666,0.008625340805833801,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,785,0.10519999999999999,0.009769480245309457,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_balanced,,1000,0.10076666666666668,0.008600192019518694,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,0,0.16334999999999997,0.005701178433256712,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,10,0.13112666666666667,0.0037113164716249575,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,13,0.12053666666666668,0.0024309597563071726,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,16,0.11698333333333331,0.0026824204948538467,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,21,0.10827666666666665,0.002354035622365902,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,26,0.10375333333333335,0.002538645372145022,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,34,0.09680333333333332,0.0020609780087855888,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,43,0.09290000000000002,0.0017480226809407006,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,55,0.09176,0.0018444798248814257,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,70,0.09249333333333334,0.001823911236974148,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,89,0.09628333333333333,0.001899203336083727,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,113,0.09759999999999999,0.0022775980064585234,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,144,0.09816,0.0026668983986533855,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,183,0.09624666666666667,0.0020599804631313136,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,234,0.09381333333333333,0.002590427477819807,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,298,0.08910000000000001,0.0024619625291611006,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,379,0.08196333333333332,0.002143630786547614,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,483,0.07663999999999999,0.002511911369004449,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,616,0.07044000000000002,0.0019753344063505878,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,785,0.06551,0.0024184050886948932,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),forward_rmse,,1000,0.05995333333333333,0.002095730626969558,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,0,0.5092,0.009950391144146854,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,10,0.4538666666666666,0.009667235155881517,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,13,0.4461666666666666,0.009532685587506194,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,16,0.4408,0.009127812214882203,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,21,0.4289666666666666,0.010403039108907513,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,26,0.4214666666666666,0.010512117819008758,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,34,0.40686666666666665,0.011707845928420665,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,43,0.3993666666666667,0.00877661020644818,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,55,0.38863333333333333,0.00831989703720475,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,70,0.3777666666666667,0.011799048507481523,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,89,0.37013333333333326,0.012254806311104455,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,113,0.3611333333333333,0.01344753200985444,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,144,0.3514666666666667,0.013800090978182128,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,183,0.3380000000000001,0.01306019842479348,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,234,0.32723333333333327,0.01430037190498172,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,298,0.3129,0.016579995158881325,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,379,0.3023666666666668,0.01723019791363166,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,483,0.2893333333333334,0.0160405355633181,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,616,0.2800666666666666,0.015245902704211283,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,785,0.2663999999999999,0.015232230811856843,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.02,1000,0.2535,0.015631084112365242,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,0,0.5102666666666668,0.017706760302631526,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,10,0.4079333333333333,0.015737818301601553,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,13,0.3947666666666666,0.015325403608335005,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,16,0.38366666666666666,0.01276655617040609,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,21,0.3619333333333333,0.015200106178464373,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,26,0.34403333333333325,0.016480267905019903,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,34,0.3200333333333333,0.015707406301285306,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,43,0.30266666666666675,0.011048911734107662,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,55,0.2935333333333333,0.013653681513960396,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,70,0.2807333333333333,0.019265963238960376,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,89,0.26256666666666667,0.019636673606096416,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,113,0.24783333333333335,0.01945721227510708,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,144,0.2360666666666667,0.02072759183946194,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,183,0.21596666666666667,0.01984292789539211,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,234,0.20283333333333334,0.019205262079193167,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,298,0.18466666666666667,0.01827819017023476,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,379,0.17599999999999996,0.018867811240933806,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,483,0.15889999999999999,0.01675681513631542,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,616,0.14049999999999999,0.013893501283882656,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,785,0.12879999999999997,0.016247243860672805,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.04,1000,0.12393333333333333,0.015145285013192301,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,0,0.5279666666666666,0.03365251468982458,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,10,0.3311666666666666,0.022735430397145283,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,13,0.30756666666666665,0.024433921975242003,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,16,0.2868,0.021793747300870147,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,21,0.25453333333333333,0.027069122391673382,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,26,0.22623333333333337,0.027835872492551053,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,34,0.19166666666666668,0.022333724561293025,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,43,0.17253333333333334,0.01643066987519104,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,55,0.15760000000000002,0.017394916954606512,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,70,0.14416666666666667,0.02193945739715348,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,89,0.12696666666666667,0.019548772226934,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,113,0.11220000000000001,0.017761110603171655,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,144,0.10306666666666667,0.01568855465958481,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,183,0.08646666666666666,0.01460083471328872,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,234,0.07716666666666665,0.01400391753821188,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,298,0.06596666666666667,0.010951946800486305,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,379,0.05720000000000001,0.011061987699831485,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,483,0.050366666666666664,0.00998949358347676,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,616,0.041433333333333336,0.006550817272292278,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,785,0.03503333333333334,0.007524234032999913,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.08,1000,0.03150000000000001,0.006280323912256553,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,0,0.5440333333333334,0.06253375448017176,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,10,0.19559999999999997,0.025278814703741954,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,13,0.16523333333333337,0.028495980550769066,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,16,0.14163333333333336,0.026417178715769707,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,21,0.11326666666666668,0.026890952017313577,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,26,0.08689999999999999,0.025463536251610096,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,34,0.06203333333333332,0.01416144531346988,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,43,0.047766666666666666,0.009233748662270393,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,55,0.041166666666666664,0.009708600825089808,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,70,0.038033333333333336,0.011107134564360337,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,89,0.029,0.009057272222630912,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,113,0.024666666666666674,0.009192338330131071,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,144,0.020500000000000004,0.006147236350341344,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,183,0.0154,0.0052438479950682815,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,234,0.013033333333333334,0.004895686296014059,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,298,0.009266666666666668,0.003237407864321613,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,379,0.007300000000000001,0.0029648735914759154,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,483,0.0061,0.0026609676548842807,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,616,0.004233333333333334,0.00128487689142366,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,785,0.003766666666666667,0.0013326352667903099,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),preference_error_reward_gap_bin,0.16,1000,0.0033000000000000004,0.0011773477911412454,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,0,0.5227333333333334,0.030334062412194236,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,10,0.3319333333333334,0.01991414626754005,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,13,0.3039000000000001,0.020899784627592045,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,16,0.28523333333333334,0.019791298607305757,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,21,0.24766666666666665,0.021547682599579645,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,26,0.21349999999999997,0.022508796580362974,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,34,0.1806,0.018313999495181536,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,43,0.16029999999999997,0.013336384846361642,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,55,0.14833333333333334,0.014243995133765513,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,70,0.13876666666666668,0.013864031737551427,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,89,0.13446666666666665,0.011410864351295428,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,113,0.13416666666666666,0.012265924001159221,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,144,0.13983333333333334,0.011057937543352964,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,183,0.1370333333333333,0.01135754392458387,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,234,0.1346,0.009710837363077148,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,298,0.12266666666666667,0.009513121155970685,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,379,0.11523333333333333,0.010273377202873354,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,483,0.09910000000000001,0.009992798005998853,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,616,0.08726666666666667,0.00747322849904904,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,785,0.0792,0.008057389711820835,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Estimated Recency),current_preference_error_balanced,,1000,0.07003333333333334,0.00773595999836361,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,0,0.5261666666666667,0.02995527935792123,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,10,0.3431666666666667,0.016559606109718884,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,13,0.3355000000000001,0.02242233385517125,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,16,0.30883333333333335,0.021133755257812525,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,21,0.29013333333333335,0.019033922959086735,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,26,0.27590000000000003,0.018884711363367796,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,34,0.24926666666666666,0.023255601163448773,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,43,0.23383333333333328,0.022762694493740528,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,55,0.21676666666666666,0.018705986681334396,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,70,0.20340000000000005,0.017366977827526775,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,89,0.1896333333333333,0.015082791286557313,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,113,0.17726666666666666,0.013575706387057622,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,144,0.16986666666666664,0.012890760339084194,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,183,0.1605333333333333,0.011434435788259053,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,234,0.15019999999999997,0.010869062863598927,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,298,0.1404,0.01190772165404454,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,379,0.12773333333333334,0.009380077246526178,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,483,0.12216666666666669,0.009494782449890861,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,616,0.11446666666666665,0.009514839387068008,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,785,0.10836666666666668,0.00879958857731692,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_balanced,,1000,0.09773333333333335,0.009152815787076682,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,0,0.16334999999999997,0.005701178433256712,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,10,0.13102333333333335,0.003553928274471629,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,13,0.12393,0.0033354833760083384,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,16,0.11553666666666665,0.0023913777495548315,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,21,0.10829666666666667,0.002684416500134785,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,26,0.10456333333333331,0.003622371147703266,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,34,0.09859999999999998,0.0034455381949472495,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,43,0.09395333333333333,0.0020605172143785835,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,55,0.09170333333333333,0.002587823035683733,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,70,0.09261666666666665,0.0021147401067003794,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,89,0.09617666666666663,0.002247030041307978,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,113,0.09847333333333336,0.0018314612058841144,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,144,0.0999866666666667,0.0021894628548268197,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,183,0.09795000000000001,0.00202046049845089,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,234,0.09356666666666665,0.002143290956342831,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,298,0.08761333333333333,0.0023918049550833284,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,379,0.08156,0.0025584705915437933,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,483,0.07511,0.002518558794235628,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,616,0.06876666666666666,0.002266664942468193,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,785,0.06393333333333334,0.002073765652843275,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),forward_rmse,,1000,0.059146666666666674,0.0021770644127253446,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,0,0.5092,0.009950391144146854,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,10,0.4567333333333334,0.009359551739073936,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,13,0.4508666666666666,0.011132752885742473,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,16,0.44126666666666675,0.012150867225084917,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,21,0.43293333333333334,0.011305970900386247,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,26,0.4236333333333333,0.01064291444473312,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,34,0.40523333333333333,0.01326355364588072,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,43,0.39480000000000004,0.015554815025868675,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,55,0.38339999999999996,0.014527502813671392,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,70,0.37443333333333334,0.014769758109461186,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,89,0.3600666666666666,0.014294066476546038,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,113,0.3490000000000001,0.012150102195835519,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,144,0.34480000000000005,0.012287587933125751,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,183,0.33683333333333326,0.01216041944012457,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,234,0.3256,0.01201664569096698,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,298,0.31383333333333335,0.015156122355917526,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,379,0.2955,0.014026787719967532,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,483,0.2860666666666667,0.015425236040532475,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,616,0.2746,0.01604091523066027,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,785,0.26376666666666665,0.014783424062987252,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.02,1000,0.2469333333333333,0.016462009257818204,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,0,0.5102666666666668,0.017706760302631526,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,10,0.40959999999999996,0.009226933667023216,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,13,0.40300000000000014,0.014646294683459692,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,16,0.38093333333333335,0.017259598152409104,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,21,0.3700333333333333,0.014649735690156243,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,26,0.3540666666666666,0.01656217546689743,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,34,0.3257333333333333,0.02286950229482176,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,43,0.30606666666666665,0.025215843807001818,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,55,0.28773333333333334,0.023046258862006574,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,70,0.2702,0.022253510693352248,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,89,0.25079999999999997,0.02037726105649287,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,113,0.23410000000000003,0.01980238954471097,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,144,0.2250666666666667,0.018787352576941602,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,183,0.21280000000000002,0.0161570314745859,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,234,0.1989,0.01660144042540168,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,298,0.18443333333333334,0.01771700778311787,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,379,0.16486666666666663,0.015823979666398893,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,483,0.15263333333333332,0.015075138764111312,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,616,0.14163333333333333,0.0136947321272016,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,785,0.13463333333333335,0.013861534574095391,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.04,1000,0.11883333333333333,0.013256809477915925,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,0,0.5279666666666666,0.03365251468982458,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,10,0.32793333333333335,0.01982800852468178,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,13,0.3162333333333334,0.02583363867590341,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,16,0.2853,0.027984790823084332,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,21,0.2564666666666667,0.023230116079319525,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,26,0.23813333333333328,0.025912811276238335,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,34,0.19813333333333336,0.02862695659725825,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,43,0.17906666666666662,0.028977214426327422,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,55,0.15556666666666666,0.02331171671397945,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,70,0.13873333333333332,0.020938072128435365,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,89,0.11553333333333334,0.017955048935991442,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,113,0.10060000000000001,0.015387370287884596,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,144,0.0921,0.013880898932214317,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,183,0.07866666666666668,0.012364405771785988,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,234,0.06970000000000001,0.011489980059517152,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,298,0.06166666666666666,0.010950563834324856,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,379,0.0496,0.008226982861287648,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,483,0.043166666666666666,0.007237348066871758,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,616,0.037066666666666664,0.00617780722154999,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,785,0.033466666666666665,0.005712632772655564,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.08,1000,0.028300000000000006,0.004835076252853283,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,0,0.5440333333333334,0.06253375448017176,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,10,0.18746666666666664,0.02410527045139976,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,13,0.17626666666666668,0.03239925683205376,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,16,0.1409,0.02699256965682447,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,21,0.11043333333333334,0.021789176435635514,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,26,0.0979,0.02232726881530155,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,34,0.07453333333333333,0.02339880742952643,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,43,0.06283333333333334,0.019005699032437377,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,55,0.04506666666666666,0.012246250393803795,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,70,0.035100000000000006,0.010393729858410462,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,89,0.0259,0.007695997032912632,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,113,0.020666666666666667,0.006954287808401192,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,144,0.016533333333333334,0.004592925142361186,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,183,0.01306666666666667,0.004377678218355569,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,234,0.009533333333333335,0.003169568745792362,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,298,0.007366666666666668,0.0025448423082411967,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,379,0.005833333333333334,0.0020289045207189838,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,483,0.004866666666666668,0.0016691550527366235,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,616,0.0044,0.0014891111018637514,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,785,0.0033666666666666675,0.0011827802702890516,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),preference_error_reward_gap_bin,0.16,1000,0.0029666666666666674,0.0011705217376047868,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,0,0.5227333333333334,0.030334062412194236,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,10,0.3316666666666666,0.01579222660213662,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,13,0.3131666666666667,0.02161290615115687,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,16,0.2908,0.023925620103858805,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,21,0.2546666666666667,0.020392340516188198,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,26,0.23309999999999997,0.021419224916403336,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,34,0.18853333333333336,0.02504476278351196,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,43,0.16423333333333331,0.02121586105870935,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,55,0.15063333333333334,0.015731875079037772,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,70,0.13720000000000002,0.01156266541443581,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,89,0.1309,0.011366374007187251,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,113,0.13723333333333337,0.010922581620754346,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,144,0.13443333333333335,0.009792231883139525,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,183,0.13646666666666665,0.008377630434564638,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,234,0.13076666666666667,0.009650285509941235,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,298,0.11850000000000001,0.00795430329291659,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,379,0.11046666666666669,0.007594990380525076,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,483,0.09623333333333334,0.008247460741293185,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,616,0.09046666666666667,0.00754035158545785,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,785,0.08153333333333332,0.006960783678204672,30
+,,,,,8,8,8,8,gp_rff,Boundary Lookahead (Oracle Recency),current_preference_error_balanced,,1000,0.0692,0.006058725611809612,30

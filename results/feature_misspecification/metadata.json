@@ -1,0 +1,159 @@
+{
+  "config": {
+    "description": "Precomputed feature-misspecification full-run results for Figure 2 panels H-I."
+  },
+  "methods": [
+    {
+      "key": "boundary_lookahead",
+      "label": "Boundary Lookahead",
+      "query_policy": "active",
+      "active_mode": "boundary_lookahead",
+      "forward_weight_mode": "none",
+      "learner_reward_model": "gp_rff"
+    }
+  ],
+  "conditions": [
+    {
+      "key": "missing_0",
+      "label": "Missing 0",
+      "type": "missing_features",
+      "n_misspecified": 0,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 10
+    },
+    {
+      "key": "missing_1",
+      "label": "Missing 1",
+      "type": "missing_features",
+      "n_misspecified": 1,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 9
+    },
+    {
+      "key": "missing_2",
+      "label": "Missing 2",
+      "type": "missing_features",
+      "n_misspecified": 2,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 8
+    },
+    {
+      "key": "missing_3",
+      "label": "Missing 3",
+      "type": "missing_features",
+      "n_misspecified": 3,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 7
+    },
+    {
+      "key": "missing_4",
+      "label": "Missing 4",
+      "type": "missing_features",
+      "n_misspecified": 4,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 6
+    },
+    {
+      "key": "missing_5",
+      "label": "Missing 5",
+      "type": "missing_features",
+      "n_misspecified": 5,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 5
+    },
+    {
+      "key": "additional_0",
+      "label": "Additional 0",
+      "type": "additional_features",
+      "n_misspecified": 0,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 10
+    },
+    {
+      "key": "additional_1",
+      "label": "Additional 1",
+      "type": "additional_features",
+      "n_misspecified": 1,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 11
+    },
+    {
+      "key": "additional_2",
+      "label": "Additional 2",
+      "type": "additional_features",
+      "n_misspecified": 2,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 12
+    },
+    {
+      "key": "additional_3",
+      "label": "Additional 3",
+      "type": "additional_features",
+      "n_misspecified": 3,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 13
+    },
+    {
+      "key": "additional_4",
+      "label": "Additional 4",
+      "type": "additional_features",
+      "n_misspecified": 4,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 14
+    },
+    {
+      "key": "additional_5",
+      "label": "Additional 5",
+      "type": "additional_features",
+      "n_misspecified": 5,
+      "d": 10,
+      "control_dim": 10,
+      "total_outcome_dim": 15,
+      "reward_outcome_dim": 10,
+      "observed_outcome_dim": 15
+    }
+  ],
+  "result_slots": {
+    "err_test": 0,
+    "err_balanced": 1,
+    "forward_rmse": 2,
+    "policy_reward_mc": 3,
+    "policy_regret_mc": 4,
+    "current_err_test": 7,
+    "current_err_balanced": 8
+  },
+  "precomputed_result_note": "Included to reproduce the paper Figure 2 feature-misspecification panels without rerunning the full experiments."
+}

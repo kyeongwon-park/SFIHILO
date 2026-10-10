@@ -1,0 +1,54 @@
+{
+  "config": {
+    "description": "Precomputed noisy stationary full-run results for Figure 2 panels A-D and the noise-on side of panel E.",
+    "noise": {
+      "control_jitter_std": 0.02,
+      "oracle_phi_noise_std": 0.05,
+      "reward_noise_std": 0.02
+    },
+    "d_list": [
+      4,
+      8,
+      12
+    ]
+  },
+  "methods": [
+    {
+      "key": "random",
+      "label": "Random",
+      "query_policy": "random",
+      "active_mode": null,
+      "forward_weight_mode": "none",
+      "learner_reward_model": "gp_rff"
+    },
+    {
+      "key": "mutual_information",
+      "label": "Mutual Information",
+      "query_policy": "active",
+      "active_mode": "mutual_information",
+      "forward_weight_mode": "none",
+      "learner_reward_model": "gp_rff"
+    },
+    {
+      "key": "boundary_lookahead",
+      "label": "Boundary Lookahead",
+      "query_policy": "active",
+      "active_mode": "boundary_lookahead",
+      "forward_weight_mode": "none",
+      "learner_reward_model": "gp_rff"
+    }
+  ],
+  "conditions": [],
+  "result_slots": {
+    "err_test": 0,
+    "err_balanced": 1,
+    "forward_rmse": 2,
+    "policy_reward_mc": 3,
+    "policy_regret_mc": 4,
+    "policy_reward_mean": 5,
+    "policy_regret_mean": 6,
+    "current_err_test": 7,
+    "current_err_balanced": 8
+  },
+  "precomputed_result_note": "Included to reproduce the paper Figure 2 panels without rerunning the full experiments. Stationary dimensionality panels include d=4, d=8, and d=12."
+}

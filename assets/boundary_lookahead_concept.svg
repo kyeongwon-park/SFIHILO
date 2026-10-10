@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Boundary Lookahead</title>
+  <desc id="desc">A conceptual overview of policy candidates, uncertain forward outcomes, preference-boundary uncertainty, the one-step lookahead update, and the distinction between Random, Mutual Information, and Boundary Lookahead querying.</desc>
+  <defs>
+    <style>
+      .title { font: 700 42px 'Segoe UI', Arial, sans-serif; fill: #172033; }
+      .subtitle { font: 400 27px 'Segoe UI', Arial, sans-serif; fill: #526077; }
+      .eyebrow { font: 700 22px 'Segoe UI', Arial, sans-serif; letter-spacing: 0.8px; fill: #526077; }
+      .panel-title { font: 700 28px 'Segoe UI', Arial, sans-serif; fill: #172033; }
+      .body { font: 400 27px 'Segoe UI', Arial, sans-serif; fill: #526077; }
+      .small { font: 400 24px 'Segoe UI', Arial, sans-serif; fill: #526077; }
+      .math { font: italic 25px Georgia, serif; fill: #344054; }
+      .step-number { font: 700 25px 'Segoe UI', Arial, sans-serif; fill: #FFFFFF; }
+      .step-title { font: 700 24px 'Segoe UI', Arial, sans-serif; fill: #172033; }
+      .step-body { font: 400 26px 'Segoe UI', Arial, sans-serif; fill: #59677D; }
+      .rule-title { font: 700 28px 'Segoe UI', Arial, sans-serif; }
+      .rule-body { font: 400 26px 'Segoe UI', Arial, sans-serif; fill: #59677D; }
+    </style>
+    <marker id="arrow-dark" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B" />
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#F26B3A" />
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#172033" flood-opacity="0.08" />
+    </filter>
+    <linearGradient id="forward-cloud" x1="0" x2="1">
+      <stop offset="0" stop-color="#DCEBFF" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#78AEEF" stop-opacity="0.75" />
+    </linearGradient>
+    <linearGradient id="lookahead-band" x1="0" x2="1">
+      <stop offset="0" stop-color="#FFF7F2" />
+      <stop offset="1" stop-color="#FFFDFB" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1120" fill="#FFFFFF" />
+  <text x="55" y="55" class="title">Boundary Lookahead</text>
+  <text x="55" y="91" class="subtitle">A policy is valuable when executing it is expected to improve downstream preference learning.</text>
+  <g filter="url(#shadow)">
+    <rect x="55" y="130" width="390" height="390" rx="20" fill="#FFFFFF" stroke="#D9E1EC" />
+    <rect x="485" y="130" width="510" height="390" rx="20" fill="#FFFFFF" stroke="#D9E1EC" />
+    <rect x="1035" y="130" width="510" height="390" rx="20" fill="#FFFFFF" stroke="#D9E1EC" />
+  </g>
+  <text x="82" y="165" class="eyebrow">1 · POLICY SPACE</text>
+  <text x="82" y="207" class="panel-title">Where can we query?</text>
+  <line x1="110" y1="425" x2="398" y2="425" stroke="#A8B2C1" stroke-width="1.5" />
+  <line x1="110" y1="425" x2="110" y2="235" stroke="#A8B2C1" stroke-width="1.5" />
+  <text x="372" y="450" class="small">τ₁</text>
+  <text x="83" y="249" class="small">τ₂</text>
+  <g fill="#AEB8C7">
+    <circle cx="145" cy="380" r="7" />
+    <circle cx="176" cy="301" r="7" />
+    <circle cx="204" cy="348" r="7" />
+    <circle cx="236" cy="268" r="7" />
+    <circle cx="262" cy="393" r="7" />
+    <circle cx="291" cy="327" r="7" />
+    <circle cx="329" cy="286" r="7" />
+    <circle cx="361" cy="365" r="7" />
+    <circle cx="382" cy="247" r="7" />
+    <circle cx="153" cy="254" r="7" />
+    <circle cx="335" cy="406" r="7" />
+    <circle cx="219" cy="405" r="7" />
+  </g>
+  <circle cx="291" cy="327" r="18" fill="#FFF1EA" stroke="#F26B3A" stroke-width="4" />
+  <circle cx="291" cy="327" r="6" fill="#F26B3A" />
+  <path d="M 308 315 C 340 293, 365 284, 396 283" fill="none" stroke="#F26B3A" stroke-width="2" stroke-dasharray="5 5" />
+  <rect x="250" y="253" width="177" height="39" rx="16" fill="#FFF1EA" />
+  <text x="264" y="280" class="small" fill="#C84D20">candidate τ</text>
+  <text x="82" y="469" class="body">
+    <tspan x="82" y="469">Choose among</tspan>
+    <tspan x="82" y="501">executable policies.</tspan>
+  </text>
+  <path d="M 450 305 L 474 305" fill="none" stroke="#64748B" stroke-width="2.5" marker-end="url(#arrow-dark)" />
+  <text x="512" y="165" class="eyebrow">2 · FORWARD BELIEF</text>
+  <text x="512" y="207" class="panel-title">What outcome may occur?</text>
+  <line x1="540" y1="425" x2="950" y2="425" stroke="#A8B2C1" stroke-width="1.5" />
+  <line x1="540" y1="425" x2="540" y2="235" stroke="#A8B2C1" stroke-width="1.5" />
+  <text x="925" y="450" class="small">ϕ₁</text>
+  <text x="512" y="249" class="small">ϕ₂</text>
+  <ellipse cx="750" cy="329" rx="146" ry="76" transform="rotate(-18 750 329)" fill="url(#forward-cloud)" stroke="#6EA3E4" stroke-width="2" stroke-dasharray="7 6" />
+  <g fill="#4388DD" opacity="0.78">
+    <circle cx="635" cy="352" r="6" />
+    <circle cx="669" cy="309" r="6" />
+    <circle cx="705" cy="362" r="6" />
+    <circle cx="733" cy="300" r="6" />
+    <circle cx="777" cy="344" r="6" />
+    <circle cx="810" cy="285" r="6" />
+    <circle cx="848" cy="321" r="6" />
+    <circle cx="875" cy="272" r="6" />
+    <circle cx="825" cy="377" r="6" />
+    <circle cx="712" cy="323" r="6" />
+  </g>
+  <circle cx="758" cy="328" r="13" fill="#FFFFFF" stroke="#F26B3A" stroke-width="4" />
+  <circle cx="758" cy="328" r="4" fill="#F26B3A" />
+  <path d="M 758 312 L 758 269" stroke="#F26B3A" stroke-width="2" />
+  <rect x="669" y="232" width="182" height="40" rx="17" fill="#FFF1EA" />
+  <text x="682" y="260" class="small" fill="#C84D20">forward mean</text>
+  <text x="604" y="401" class="math">p(ϕ<tspan baseline-shift="sub" font-size="13">τ</tspan> | τ, D<tspan baseline-shift="sub" font-size="13">f</tspan>)</text>
+  <text x="512" y="469" class="body">
+    <tspan x="512" y="469">Predict what the policy</tspan>
+    <tspan x="512" y="501">can realize.</tspan>
+  </text>
+  <path d="M 1000 305 L 1024 305" fill="none" stroke="#64748B" stroke-width="2.5" marker-end="url(#arrow-dark)" />
+  <text x="1062" y="165" class="eyebrow">3 · PREFERENCE BELIEF</text>
+  <text x="1062" y="207" class="panel-title">Which boundary is plausible?</text>
+  <line x1="1090" y1="425" x2="1500" y2="425" stroke="#A8B2C1" stroke-width="1.5" />
+  <line x1="1090" y1="425" x2="1090" y2="235" stroke="#A8B2C1" stroke-width="1.5" />
+  <path d="M 1110 387 C 1190 380, 1225 345, 1280 332 C 1350 316, 1403 287, 1480 246" fill="none" stroke="#F26B3A" stroke-width="25" opacity="0.13" />
+  <path d="M 1110 399 C 1185 366, 1229 359, 1288 323 C 1350 286, 1414 290, 1480 251" fill="none" stroke="#8995A7" stroke-width="2.2" stroke-dasharray="8 7" />
+  <path d="M 1110 373 C 1170 389, 1238 333, 1293 341 C 1364 351, 1412 273, 1480 260" fill="none" stroke="#8995A7" stroke-width="2.2" stroke-dasharray="8 7" />
+  <path d="M 1110 387 C 1190 380, 1225 345, 1280 332 C 1350 316, 1403 287, 1480 246" fill="none" stroke="#F26B3A" stroke-width="4" />
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">
+    <text x="1150" y="285" fill="#2F80ED">+</text>
+    <text x="1220" y="270" fill="#2F80ED">+</text>
+    <text x="1330" y="253" fill="#2F80ED">+</text>
+    <text x="1435" y="225" fill="#2F80ED">+</text>
+    <text x="1150" y="414" fill="#7B8799">−</text>
+    <text x="1250" y="403" fill="#7B8799">−</text>
+    <text x="1370" y="383" fill="#7B8799">−</text>
+    <text x="1450" y="342" fill="#7B8799">−</text>
+  </g>
+  <circle cx="1302" cy="329" r="11" fill="#FFFFFF" stroke="#F26B3A" stroke-width="4" />
+  <path d="M 1316 323 L 1385 300" stroke="#F26B3A" stroke-width="2" />
+  <rect x="1288" y="273" width="227" height="40" rx="16" fill="#FFF1EA" />
+  <text x="1301" y="301" class="small" fill="#C84D20">boundary region Z<tspan baseline-shift="sub" font-size="17">t</tspan></text>
+  <text x="1062" y="469" class="body">
+    <tspan x="1062" y="469">Resolve disagreements where</tspan>
+    <tspan x="1062" y="501">preferences change.</tspan>
+  </text>
+  <rect x="55" y="555" width="1490" height="300" rx="22" fill="url(#lookahead-band)" stroke="#F4D5C6" />
+  <text x="82" y="592" class="eyebrow" fill="#C84D20">ONE-STEP LOOKAHEAD · REPEATED FOR EACH CANDIDATE</text>
+  <g>
+    <rect x="82" y="615" width="305" height="215" rx="16" fill="#FFFFFF" stroke="#E5D9D2" />
+    <circle cx="112" cy="650" r="20" fill="#F26B3A" />
+    <text x="105" y="659" class="step-number">1</text>
+    <text x="143" y="659" class="step-title">Predict outcomes</text>
+    <text x="105" y="709" class="step-body">
+      <tspan x="105" y="709">Sample or approximate</tspan>
+      <tspan x="105" y="741">the candidate forward</tspan>
+      <tspan x="105" y="773">observation.</tspan>
+    </text>
+    <rect x="448" y="615" width="305" height="215" rx="16" fill="#FFFFFF" stroke="#E5D9D2" />
+    <circle cx="478" cy="650" r="20" fill="#F26B3A" />
+    <text x="471" y="659" class="step-number">2</text>
+    <text x="509" y="659" class="step-title">Average labels</text>
+    <text x="471" y="709" class="step-body">
+      <tspan x="471" y="709">Weight both possible</tspan>
+      <tspan x="471" y="741">preference labels under</tspan>
+      <tspan x="471" y="773">the current belief.</tspan>
+    </text>
+    <rect x="814" y="615" width="305" height="215" rx="16" fill="#FFFFFF" stroke="#E5D9D2" />
+    <circle cx="844" cy="650" r="20" fill="#F26B3A" />
+    <text x="837" y="659" class="step-number">3</text>
+    <text x="875" y="659" class="step-title">Update both beliefs</text>
+    <text x="837" y="709" class="step-body">
+      <tspan x="837" y="709">Hypothetically update</tspan>
+      <tspan x="837" y="741">the forward and</tspan>
+      <tspan x="837" y="773">inverse posteriors.</tspan>
+    </text>
+    <rect x="1180" y="615" width="305" height="215" rx="16" fill="#FFFFFF" stroke="#E5D9D2" />
+    <circle cx="1210" cy="650" r="20" fill="#F26B3A" />
+    <text x="1203" y="659" class="step-number">4</text>
+    <text x="1241" y="659" class="step-title">Score resolution</text>
+    <text x="1203" y="709" class="step-body">
+      <tspan x="1203" y="709">Value the expected</tspan>
+      <tspan x="1203" y="741">reduction in boundary</tspan>
+      <tspan x="1203" y="773">disagreement over Zₜ.</tspan>
+    </text>
+  </g>
+  <g stroke="#C38A70" stroke-width="2" fill="none" marker-end="url(#arrow-orange)">
+    <path d="M 394 730 L 438 730" />
+    <path d="M 760 730 L 804 730" />
+    <path d="M 1126 730 L 1170 730" />
+  </g>
+  <text x="55" y="910" class="eyebrow">WHAT EACH QUERY RULE VALUES</text>
+  <rect x="55" y="940" width="465" height="150" rx="15" fill="#F5F7FA" stroke="#D9E1EC" />
+  <rect x="55" y="940" width="8" height="150" rx="4" fill="#667085" />
+  <text x="83" y="981" class="rule-title" fill="#475467">Random</text>
+  <text x="83" y="1020" class="rule-body">
+    <tspan x="83" y="1020">Coverage without model-based</tspan>
+    <tspan x="83" y="1052">query scoring</tspan>
+  </text>
+  <rect x="568" y="940" width="465" height="150" rx="15" fill="#F3F8FF" stroke="#C9DCF5" />
+  <rect x="568" y="940" width="8" height="150" rx="4" fill="#2F80ED" />
+  <text x="596" y="981" class="rule-title" fill="#2367B8">Mutual Information</text>
+  <text x="596" y="1020" class="rule-body">
+    <tspan x="596" y="1020">Current reward information</tspan>
+    <tspan x="596" y="1052">at the predicted outcome</tspan>
+  </text>
+  <rect x="1080" y="940" width="465" height="150" rx="15" fill="#FFF7F2" stroke="#F4D5C6" />
+  <rect x="1080" y="940" width="8" height="150" rx="4" fill="#F26B3A" />
+  <text x="1108" y="981" class="rule-title" fill="#C84D20">Boundary Lookahead</text>
+  <text x="1108" y="1020" class="rule-body">
+    <tspan x="1108" y="1020">Downstream value of joint</tspan>
+    <tspan x="1108" y="1052">forward–inverse updates</tspan>
+  </text>
+</svg>
